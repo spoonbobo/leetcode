@@ -1,42 +1,77 @@
 #include <iostream>
-#include <iterator>
-
-using namespace std;
 
 struct ListNode {
-	int val;
-	ListNode *next;
-	ListNode() : val(0), next(nullptr) {}
-	ListNode(int x, ListNode *next) : val(x), next(next) {}
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
+ 
+class Solution {
+public:
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        ListNode* res = NULL;
+        ListNode* temp;
+        ListNode* ptr;
+        int sum;
+        bool trailing = false;
 
-ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
+        while (true) {
+            // if both are null ptrs, check whether there is trailing digit
+            // if yes insert this, otherwise done.
+            sum = 0;
+            if ((l1 == NULL) && (l2 == NULL)) {
+                if (trailing) {
+                    ptr = res;
+                    while (ptr->next != NULL) {
+                        ptr = ptr->next;
+                    }
+                    ptr->next = new ListNode(1, nullptr);
+                }
+                break;
+            };
 
-void printList(ListNode* l) {
-	while (true) {
-		cout << l->val << " ";
-		if (l->next == NULL) break;
-	}
-	cout << endl;
-}
+            // add trailing if any
+            if (trailing) {
+                sum += 1;
+            }
 
-void initList(ListNode* l, uint32_t arr[], size_t n) {
-	ListNode* head = new ListNode();
-	head = l;
-	for (int i = 0; i < n; i++) {
-		head->val = arr[i];
-		head = head->next;
-	}
-}
+            // check first val
+            if (l1 != NULL)
+                sum += l1->val;
 
-int main() {
-	uint32_t arr1[3] = {2, 4, 3};
-	uint32_t arr2[3] = {5, 6, 4 };
+            if (l2 != NULL)
+                sum += l2->val;
 
-	size_t n1 = size(arr1);
-	size_t n2 = size(arr2);
+            // check trailing
+            if (sum >= 10) trailing = true;
+            else trailing = false;
 
-	initList(l1, arr1, n1);
+            // get significant digit
+            sum %= 10;
 
-	return 0;
-}
+            // get the temp node ready
+            temp = new ListNode(sum, nullptr);
+
+            // insert the temp node at the end
+            if (res == NULL)
+                res = new ListNode(temp->val, nullptr);
+            else {
+                ptr = res;
+                while (ptr->next != NULL) {
+                    ptr = ptr->next;
+                }
+                ptr->next = temp;
+            }
+
+            // traverse
+            if (l1 != NULL)
+                l1 = l1->next;
+            if (l2 != NULL)
+                l2 = l2->next;
+        }
+
+        return res;
+    }
+};
