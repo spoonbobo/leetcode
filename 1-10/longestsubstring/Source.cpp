@@ -1,47 +1,60 @@
-#include <string>
 #include <iostream>
-#include <unordered_map>
+#include <vector>
 
 using namespace std;
 
-int getMax(int a, int b) { return (a > b) ? a : b; };
+class Solution {
+public:
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
 
-int lengthOfLongestSubstring(string s) {
-    int n = s.length();
+        // trivial cases;
+        if ((nums1.size() == 1) && (nums1.size() == 0))
+            return nums1[0];
 
-    if (n == 0) return 0;
-    if (n == 1) return 1;
+        if ((nums1.size() == 0) && (nums1.size() == 1))
+            return nums1[0];
 
-    // dynamic slide window
-    int l;
-    int max_length;
-    unordered_map<char, int> seen;
-    l = 0;  max_length =0;
+        int i = 0, j = 0;
+        double median = -1.0f;
 
-    for (int r = 0; r < n ; r++) {
-        // not seen at all
-        if (seen.find(s[r]) == seen.end())
+        // allocate temp memory
+        int n = nums1.size() + nums2.size();
+        int* temp = new int[n];
+
+        // merge 2 arrays
+        while ((i < nums1.size()) && (j < nums2.size())) {
+            if (nums1[i] < nums2[j]) {
+                temp[i + j] = nums1[i];
+                i++;
+            }
+            else {
+                temp[i + j] = nums2[j];
+                j++;
+            }
+        }
+
+        // if remaining, add them into temp
+        while (i < nums1.size()) {
+            temp[i + j] = nums1[i];
+            i++;
+        }
+
+        while (j < nums2.size()) {
+            temp[i + j] = nums2[j];
+            j++;
+        }
+
+        // check even or odd
+        if (n % 2 == 0) // even
         {
-            max_length = getMax(max_length, r - l + 1);
+            median = temp[n / 2] / (double)2 + temp[n / 2 - 1] / (double)2;
         }
         else
         {
-            // if seen in slide window jump there
-            if (seen[s[r]] < l)
-                max_length = getMax(max_length, r - l + 1);
-            else
-                l = seen[s[r]] + 1;
-            }
-        seen[s[r]] = r;
+            median = temp[n / 2];
+        }
+
+        return median;
+
     }
-    return max_length;
-}
-
-int main() {
-    string s = "abba";
-
-    int longestSubstring = lengthOfLongestSubstring(s);
-
-    cout << longestSubstring << endl;
-    return 0;
-}
+};

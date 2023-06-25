@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "addtwonum", "1-10\addtwonum
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "longestsubstring", "1-10\longestsubstring\longestsubstring.vcxproj", "{75E3F424-E9B9-4F8A-B7DC-66AD156DF123}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "medianof2sortedarrays", "1-10\medianof2sortedarrays\medianof2sortedarrays.vcxproj", "{462CE8F9-F69F-4340-AA60-252ED0368732}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -43,6 +45,14 @@ Global
 		{75E3F424-E9B9-4F8A-B7DC-66AD156DF123}.Release|x64.Build.0 = Release|x64
 		{75E3F424-E9B9-4F8A-B7DC-66AD156DF123}.Release|x86.ActiveCfg = Release|Win32
 		{75E3F424-E9B9-4F8A-B7DC-66AD156DF123}.Release|x86.Build.0 = Release|Win32
+		{462CE8F9-F69F-4340-AA60-252ED0368732}.Debug|x64.ActiveCfg = Debug|x64
+		{462CE8F9-F69F-4340-AA60-252ED0368732}.Debug|x64.Build.0 = Debug|x64
+		{462CE8F9-F69F-4340-AA60-252ED0368732}.Debug|x86.ActiveCfg = Debug|Win32
+		{462CE8F9-F69F-4340-AA60-252ED0368732}.Debug|x86.Build.0 = Debug|Win32
+		{462CE8F9-F69F-4340-AA60-252ED0368732}.Release|x64.ActiveCfg = Release|x64
+		{462CE8F9-F69F-4340-AA60-252ED0368732}.Release|x64.Build.0 = Release|x64
+		{462CE8F9-F69F-4340-AA60-252ED0368732}.Release|x86.ActiveCfg = Release|Win32
+		{462CE8F9-F69F-4340-AA60-252ED0368732}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
