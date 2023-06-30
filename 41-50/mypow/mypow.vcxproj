@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{75b4f5c2-4737-4fe1-add5-d3d926b81bc9}</ProjectGuid>
-    <RootNamespace>rmduplicates</RootNamespace>
+    <ProjectGuid>{558702e3-afa7-4045-9b73-868ed7a0aaca}</ProjectGuid>
+    <RootNamespace>mypow</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

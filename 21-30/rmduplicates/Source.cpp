@@ -18,7 +18,6 @@ public:
 };
 
 // O(n) more elegant
-
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -29,4 +28,4 @@ public:
         }
         return nums.size() - count;
     }
-};
+};  
