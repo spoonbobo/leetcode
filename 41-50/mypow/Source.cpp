@@ -2,26 +2,34 @@
 
 using namespace std;
 
-double myPow(double x, int n) {
-    bool positive = n > 0 ? true : false;
-    double result = 1;
-    while (n != 0) {
-        if (n & 1) {
-            result *= x;
-        }
-        if (n == -1) {
-            break;
-        }
-        n >>= 1;
-        x *= x;
-    }
-    if (positive)
-        return result;
-    else
-        return 1 / result;
+// linear exponentiation
+// x^n = x * x^n-1
+// to handle negative n, we use fact that x^n = 1 / x^-n
+
+double myPowLinearExponentiation(double x, int n) {
+    if (n == 0) return 1;
+    if (n < 0) return 1 / myPowLinearExponentiation(x, -n);
+    return x * myPowLinearExponentiation(x, n - 1);
 }
 
+// binary exponentiation (recursive)
+// https://leetcode.com/problems/powx-n/editorial/
+// key idea is x^n can be rewritten as
+// (x^2)^(n/2) if n is even
+// x * (x^2)^((n-1)/2)
+
+double myPowBinaryExponentiation(double x, int n) {
+    if (n == 0) return 1;
+    if (n < 0) return 1 / myPowBinaryExponentiation(x, -n);
+    if (n % 2 == 0) 
+        return myPowBinaryExponentiation(x * x, n / 2);
+    else
+        return x * myPowBinaryExponentiation(x * x, (n-1) / 2);
+}
+
+// check iterative on above editorial
+
 int main() {
-    cout << myPow((double)2, -6) << endl;
+    cout << myPowBinaryExponentiation((double)2, -6) << endl;
     return 0;
 }
