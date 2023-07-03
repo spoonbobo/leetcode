@@ -1,6 +1,6 @@
 /*
 This version is better than Source1.cpp because it not only prunes the tree for traversed idx
-But also prune the trees if it found an idx (sorted candidates), it will prune all idxs after that
+But also prune the trees if it found an idx (sorted candidates) that causes traversed_sum+this_idx > target, it will prune all idxs after that
 */
 
 #include <iostream>
