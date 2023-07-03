@@ -1,16 +1,14 @@
+/*
+This version is better than Source1.cpp because it not only prunes the tree for traversed idx
+But also prune the trees if it found an idx (sorted candidates), it will prune all idxs after that
+*/
+
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
-void printvector(vector<int> vec) {
-    for (int i = 0; i < vec.size(); i++) {
-        cout << vec[i] << " ";
-    }
-    cout << endl;
-}
-
-void backtracking(vector<int>& candidates, int target, vector<vector<int>>& result, vector<int> traversed) {
+void backtracking(vector<int>& candidates, int target, vector<vector<int>>& result, vector<int> traversed, int current_idx, int traverse_sum) {
     // 2 cases
     // if traverse sum < target, continue traversing if satisfies both constraints
 
@@ -23,23 +21,17 @@ void backtracking(vector<int>& candidates, int target, vector<vector<int>>& resu
     // if traverse sum == target, add to result list
     // printvector(traversed);
 
-    int traverse_sum = accumulate(traversed.begin(), traversed.end(), 0);
-
     if (traverse_sum == target) {
         result.push_back(traversed);
+        return;
     }
 
-    vector<int> temp;
-
-    for (int i = 0; i < candidates.size(); i++) {
-        if ((traverse_sum + candidates[i]) <= target) {
-            temp = traversed;
-            temp.push_back(candidates[i]);
-            sort(temp.begin(), temp.end());
-            auto it = find(result.begin(), result.end(), temp);
-            if (it == result.end())
-                backtracking(candidates, target, result, temp);
-        }
+    for (int i = current_idx; i < candidates.size(); i++) {
+        if (traverse_sum + candidates[i] > target)
+            break;
+        traversed.push_back(candidates[i]);
+        backtracking(candidates, target, result, traversed, i, traverse_sum + candidates[i]);
+        traversed.pop_back();
     }
 }
 
@@ -59,7 +51,7 @@ public:
         vector<int> traversed;
         sort(candidates.begin(), candidates.end());
 
-        backtracking(candidates, target, result, traversed);
+        backtracking(candidates, target, result, traversed, 0, 0);
 
         return result;
     }
