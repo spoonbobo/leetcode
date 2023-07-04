@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "firstoccurrenceofstring", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mergeksortedlists", "21-30\mergeksortedlists\mergeksortedlists.vcxproj", "{C41C8EF8-99F2-4543-9D93-4A18243D121B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "permutations", "41-50\permutations\permutations.vcxproj", "{BE578BF7-4B06-4D79-B1BF-ED0C8F938150}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{C41C8EF8-99F2-4543-9D93-4A18243D121B}.Release|x64.Build.0 = Release|x64
 		{C41C8EF8-99F2-4543-9D93-4A18243D121B}.Release|x86.ActiveCfg = Release|Win32
 		{C41C8EF8-99F2-4543-9D93-4A18243D121B}.Release|x86.Build.0 = Release|Win32
+		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150}.Debug|x64.ActiveCfg = Debug|x64
+		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150}.Debug|x64.Build.0 = Debug|x64
+		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150}.Debug|x86.Build.0 = Debug|Win32
+		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150}.Release|x64.ActiveCfg = Release|x64
+		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150}.Release|x64.Build.0 = Release|x64
+		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150}.Release|x86.ActiveCfg = Release|Win32
+		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -202,6 +212,7 @@ Global
 		{E6C7CE10-9B96-49FD-8557-3EFC8AFF1A57} = {A104675D-A978-4CB3-85B1-1212F64014FF}
 		{04FAA7F1-0CBC-4D11-BF52-7A232925E0EF} = {E645B324-F099-4F85-9F97-DF306417B1D6}
 		{C41C8EF8-99F2-4543-9D93-4A18243D121B} = {E645B324-F099-4F85-9F97-DF306417B1D6}
+		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150} = {7D44D388-6077-46C3-A129-C8FADF4EA812}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
