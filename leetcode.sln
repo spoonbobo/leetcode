@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mergeksortedlists", "21-30\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "permutations", "41-50\permutations\permutations.vcxproj", "{BE578BF7-4B06-4D79-B1BF-ED0C8F938150}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "permutations2", "41-50\permutations2\permutations2.vcxproj", "{9B3F86D9-06BC-4844-83CE-361982275384}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150}.Release|x64.Build.0 = Release|x64
 		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150}.Release|x86.ActiveCfg = Release|Win32
 		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150}.Release|x86.Build.0 = Release|Win32
+		{9B3F86D9-06BC-4844-83CE-361982275384}.Debug|x64.ActiveCfg = Debug|x64
+		{9B3F86D9-06BC-4844-83CE-361982275384}.Debug|x64.Build.0 = Debug|x64
+		{9B3F86D9-06BC-4844-83CE-361982275384}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B3F86D9-06BC-4844-83CE-361982275384}.Debug|x86.Build.0 = Debug|Win32
+		{9B3F86D9-06BC-4844-83CE-361982275384}.Release|x64.ActiveCfg = Release|x64
+		{9B3F86D9-06BC-4844-83CE-361982275384}.Release|x64.Build.0 = Release|x64
+		{9B3F86D9-06BC-4844-83CE-361982275384}.Release|x86.ActiveCfg = Release|Win32
+		{9B3F86D9-06BC-4844-83CE-361982275384}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -213,6 +223,7 @@ Global
 		{04FAA7F1-0CBC-4D11-BF52-7A232925E0EF} = {E645B324-F099-4F85-9F97-DF306417B1D6}
 		{C41C8EF8-99F2-4543-9D93-4A18243D121B} = {E645B324-F099-4F85-9F97-DF306417B1D6}
 		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150} = {7D44D388-6077-46C3-A129-C8FADF4EA812}
+		{9B3F86D9-06BC-4844-83CE-361982275384} = {7D44D388-6077-46C3-A129-C8FADF4EA812}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
