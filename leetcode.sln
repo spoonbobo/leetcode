@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "permutations2", "41-50\perm
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nextpermutation", "31-40\nextpermutation\nextpermutation.vcxproj", "{1FD52265-BA81-4B9E-A9D4-A2FA5E837004}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zigzagconversion", "1-10\zigzagconversion\zigzagconversion.vcxproj", "{E3D2BD03-05CE-4956-B566-C017A459219A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,6 +213,14 @@ Global
 		{1FD52265-BA81-4B9E-A9D4-A2FA5E837004}.Release|x64.Build.0 = Release|x64
 		{1FD52265-BA81-4B9E-A9D4-A2FA5E837004}.Release|x86.ActiveCfg = Release|Win32
 		{1FD52265-BA81-4B9E-A9D4-A2FA5E837004}.Release|x86.Build.0 = Release|Win32
+		{E3D2BD03-05CE-4956-B566-C017A459219A}.Debug|x64.ActiveCfg = Debug|x64
+		{E3D2BD03-05CE-4956-B566-C017A459219A}.Debug|x64.Build.0 = Debug|x64
+		{E3D2BD03-05CE-4956-B566-C017A459219A}.Debug|x86.ActiveCfg = Debug|Win32
+		{E3D2BD03-05CE-4956-B566-C017A459219A}.Debug|x86.Build.0 = Debug|Win32
+		{E3D2BD03-05CE-4956-B566-C017A459219A}.Release|x64.ActiveCfg = Release|x64
+		{E3D2BD03-05CE-4956-B566-C017A459219A}.Release|x64.Build.0 = Release|x64
+		{E3D2BD03-05CE-4956-B566-C017A459219A}.Release|x86.ActiveCfg = Release|Win32
+		{E3D2BD03-05CE-4956-B566-C017A459219A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -235,6 +245,7 @@ Global
 		{BE578BF7-4B06-4D79-B1BF-ED0C8F938150} = {7D44D388-6077-46C3-A129-C8FADF4EA812}
 		{9B3F86D9-06BC-4844-83CE-361982275384} = {7D44D388-6077-46C3-A129-C8FADF4EA812}
 		{1FD52265-BA81-4B9E-A9D4-A2FA5E837004} = {8AF84B11-F8C8-4365-853D-DB6C9660ED86}
+		{E3D2BD03-05CE-4956-B566-C017A459219A} = {849C3C7B-A689-41F3-81DD-4C0F155BC481}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
