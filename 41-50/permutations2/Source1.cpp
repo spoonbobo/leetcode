@@ -16,7 +16,7 @@ void swap(int& a, int& b) {
 void permuteall(vector<int>& nums, int l, int r, vector<vector<int>>& res) {
     if (l == r) {
         // reaches depth
-            res.push_back(nums);
+        res.push_back(nums);
     }
     else {
         for (int i = l; i <= r; i++) {
