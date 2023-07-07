@@ -1,5 +1,4 @@
-// I can think of we can save some spaces by not using prev
-// but this problem is too simple, not worth of deep diving
+// I can think of we can save some spaces by not using prev, but this problem is too simple, not worth of deep diving
 class Solution {
 public:
     int lengthOfLastWord(string s) {
