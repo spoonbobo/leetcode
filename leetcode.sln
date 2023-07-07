@@ -53,6 +53,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nextpermutation", "31-40\ne
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zigzagconversion", "1-10\zigzagconversion\zigzagconversion.vcxproj", "{E3D2BD03-05CE-4956-B566-C017A459219A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "51-60", "51-60", "{E4090D76-82CE-402A-9F3B-C5B2B29B703F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lengthoflastword", "51-60\lengthoflastword\lengthoflastword.vcxproj", "{202A5747-EB5B-4907-B768-83F5AC6B8E7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +225,14 @@ Global
 		{E3D2BD03-05CE-4956-B566-C017A459219A}.Release|x64.Build.0 = Release|x64
 		{E3D2BD03-05CE-4956-B566-C017A459219A}.Release|x86.ActiveCfg = Release|Win32
 		{E3D2BD03-05CE-4956-B566-C017A459219A}.Release|x86.Build.0 = Release|Win32
+		{202A5747-EB5B-4907-B768-83F5AC6B8E7A}.Debug|x64.ActiveCfg = Debug|x64
+		{202A5747-EB5B-4907-B768-83F5AC6B8E7A}.Debug|x64.Build.0 = Debug|x64
+		{202A5747-EB5B-4907-B768-83F5AC6B8E7A}.Debug|x86.ActiveCfg = Debug|Win32
+		{202A5747-EB5B-4907-B768-83F5AC6B8E7A}.Debug|x86.Build.0 = Debug|Win32
+		{202A5747-EB5B-4907-B768-83F5AC6B8E7A}.Release|x64.ActiveCfg = Release|x64
+		{202A5747-EB5B-4907-B768-83F5AC6B8E7A}.Release|x64.Build.0 = Release|x64
+		{202A5747-EB5B-4907-B768-83F5AC6B8E7A}.Release|x86.ActiveCfg = Release|Win32
+		{202A5747-EB5B-4907-B768-83F5AC6B8E7A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -246,6 +258,7 @@ Global
 		{9B3F86D9-06BC-4844-83CE-361982275384} = {7D44D388-6077-46C3-A129-C8FADF4EA812}
 		{1FD52265-BA81-4B9E-A9D4-A2FA5E837004} = {8AF84B11-F8C8-4365-853D-DB6C9660ED86}
 		{E3D2BD03-05CE-4956-B566-C017A459219A} = {849C3C7B-A689-41F3-81DD-4C0F155BC481}
+		{202A5747-EB5B-4907-B768-83F5AC6B8E7A} = {E4090D76-82CE-402A-9F3B-C5B2B29B703F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
