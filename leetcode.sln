@@ -97,6 +97,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "countvowelssubstring", "206
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nqueen", "51-60\nqueen\nqueen.vcxproj", "{344A62DF-9C38-4666-8C08-3C7A7546B783}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rotateimage", "41-50\rotateimage\rotateimage.vcxproj", "{8D54F37A-58F7-4AEB-917A-8E5AB974AAD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -377,6 +379,14 @@ Global
 		{344A62DF-9C38-4666-8C08-3C7A7546B783}.Release|x64.Build.0 = Release|x64
 		{344A62DF-9C38-4666-8C08-3C7A7546B783}.Release|x86.ActiveCfg = Release|Win32
 		{344A62DF-9C38-4666-8C08-3C7A7546B783}.Release|x86.Build.0 = Release|Win32
+		{8D54F37A-58F7-4AEB-917A-8E5AB974AAD4}.Debug|x64.ActiveCfg = Debug|x64
+		{8D54F37A-58F7-4AEB-917A-8E5AB974AAD4}.Debug|x64.Build.0 = Debug|x64
+		{8D54F37A-58F7-4AEB-917A-8E5AB974AAD4}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D54F37A-58F7-4AEB-917A-8E5AB974AAD4}.Debug|x86.Build.0 = Debug|Win32
+		{8D54F37A-58F7-4AEB-917A-8E5AB974AAD4}.Release|x64.ActiveCfg = Release|x64
+		{8D54F37A-58F7-4AEB-917A-8E5AB974AAD4}.Release|x64.Build.0 = Release|x64
+		{8D54F37A-58F7-4AEB-917A-8E5AB974AAD4}.Release|x86.ActiveCfg = Release|Win32
+		{8D54F37A-58F7-4AEB-917A-8E5AB974AAD4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -416,6 +426,7 @@ Global
 		{BF3F52B0-9DB3-4179-8B14-795326697571} = {AD78E37F-FCFF-4827-ACE6-E8ED3888AFFD}
 		{12EAD39F-9912-4561-A2DE-F8DDC5FEE895} = {E8769AD8-ECD5-422A-B365-31F366086830}
 		{344A62DF-9C38-4666-8C08-3C7A7546B783} = {E4090D76-82CE-402A-9F3B-C5B2B29B703F}
+		{8D54F37A-58F7-4AEB-917A-8E5AB974AAD4} = {7D44D388-6077-46C3-A129-C8FADF4EA812}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
