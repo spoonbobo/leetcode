@@ -163,6 +163,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1641-1650", "1641-1650", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "getmaximumingeneratedarray", "1641-1650\getmaximumingeneratedarray\getmaximumingeneratedarray.vcxproj", "{C21B9CAC-B1BE-4FB9-B8E2-17A5786595AB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pascaltriangle2", "111-120\pascaltriangle2\pascaltriangle2.vcxproj", "{99770F47-9191-4D18-948A-30BBF459305C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -587,6 +589,14 @@ Global
 		{C21B9CAC-B1BE-4FB9-B8E2-17A5786595AB}.Release|x64.Build.0 = Release|x64
 		{C21B9CAC-B1BE-4FB9-B8E2-17A5786595AB}.Release|x86.ActiveCfg = Release|Win32
 		{C21B9CAC-B1BE-4FB9-B8E2-17A5786595AB}.Release|x86.Build.0 = Release|Win32
+		{99770F47-9191-4D18-948A-30BBF459305C}.Debug|x64.ActiveCfg = Debug|x64
+		{99770F47-9191-4D18-948A-30BBF459305C}.Debug|x64.Build.0 = Debug|x64
+		{99770F47-9191-4D18-948A-30BBF459305C}.Debug|x86.ActiveCfg = Debug|Win32
+		{99770F47-9191-4D18-948A-30BBF459305C}.Debug|x86.Build.0 = Debug|Win32
+		{99770F47-9191-4D18-948A-30BBF459305C}.Release|x64.ActiveCfg = Release|x64
+		{99770F47-9191-4D18-948A-30BBF459305C}.Release|x64.Build.0 = Release|x64
+		{99770F47-9191-4D18-948A-30BBF459305C}.Release|x86.ActiveCfg = Release|Win32
+		{99770F47-9191-4D18-948A-30BBF459305C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -644,6 +654,7 @@ Global
 		{8662ED5B-B6E9-4F84-AC76-E05AA105FD1C} = {1B849CF8-F217-42AB-AF11-47E85A140B83}
 		{A3A454D7-0082-4C44-9918-1EF413527BE3} = {B1F7062E-D595-4C97-8036-EE00276EF118}
 		{C21B9CAC-B1BE-4FB9-B8E2-17A5786595AB} = {3615B8FE-FC95-48CC-BC8C-83B757329FBB}
+		{99770F47-9191-4D18-948A-30BBF459305C} = {A85DD0C9-E020-4288-B0E5-3459762E6E74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
