@@ -171,6 +171,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mincostclimbingstairs", "74
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "triangle", "111-120\triangle\triangle.vcxproj", "{048E56CA-36EE-4F97-9E98-76C5FDE547AA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "restoreipaddress", "91-100\restoreipaddress\restoreipaddress.vcxproj", "{0D679902-52FA-4C40-9C6F-180EE3D66BB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -619,6 +621,14 @@ Global
 		{048E56CA-36EE-4F97-9E98-76C5FDE547AA}.Release|x64.Build.0 = Release|x64
 		{048E56CA-36EE-4F97-9E98-76C5FDE547AA}.Release|x86.ActiveCfg = Release|Win32
 		{048E56CA-36EE-4F97-9E98-76C5FDE547AA}.Release|x86.Build.0 = Release|Win32
+		{0D679902-52FA-4C40-9C6F-180EE3D66BB7}.Debug|x64.ActiveCfg = Debug|x64
+		{0D679902-52FA-4C40-9C6F-180EE3D66BB7}.Debug|x64.Build.0 = Debug|x64
+		{0D679902-52FA-4C40-9C6F-180EE3D66BB7}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D679902-52FA-4C40-9C6F-180EE3D66BB7}.Debug|x86.Build.0 = Debug|Win32
+		{0D679902-52FA-4C40-9C6F-180EE3D66BB7}.Release|x64.ActiveCfg = Release|x64
+		{0D679902-52FA-4C40-9C6F-180EE3D66BB7}.Release|x64.Build.0 = Release|x64
+		{0D679902-52FA-4C40-9C6F-180EE3D66BB7}.Release|x86.ActiveCfg = Release|Win32
+		{0D679902-52FA-4C40-9C6F-180EE3D66BB7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -679,6 +689,7 @@ Global
 		{99770F47-9191-4D18-948A-30BBF459305C} = {A85DD0C9-E020-4288-B0E5-3459762E6E74}
 		{CE06CD1D-FA04-42A7-872A-2965ADA571A0} = {48A409BC-2024-445B-AFFE-3521FC255C33}
 		{048E56CA-36EE-4F97-9E98-76C5FDE547AA} = {A85DD0C9-E020-4288-B0E5-3459762E6E74}
+		{0D679902-52FA-4C40-9C6F-180EE3D66BB7} = {AB3E0695-3F67-4D86-8A2A-6EB2181174B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
