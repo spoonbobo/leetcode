@@ -169,6 +169,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "741-750", "741-750", "{48A4
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mincostclimbingstairs", "741-750\mincostclimbingstairs\mincostclimbingstairs.vcxproj", "{CE06CD1D-FA04-42A7-872A-2965ADA571A0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "triangle", "111-120\triangle\triangle.vcxproj", "{048E56CA-36EE-4F97-9E98-76C5FDE547AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -609,6 +611,14 @@ Global
 		{CE06CD1D-FA04-42A7-872A-2965ADA571A0}.Release|x64.Build.0 = Release|x64
 		{CE06CD1D-FA04-42A7-872A-2965ADA571A0}.Release|x86.ActiveCfg = Release|Win32
 		{CE06CD1D-FA04-42A7-872A-2965ADA571A0}.Release|x86.Build.0 = Release|Win32
+		{048E56CA-36EE-4F97-9E98-76C5FDE547AA}.Debug|x64.ActiveCfg = Debug|x64
+		{048E56CA-36EE-4F97-9E98-76C5FDE547AA}.Debug|x64.Build.0 = Debug|x64
+		{048E56CA-36EE-4F97-9E98-76C5FDE547AA}.Debug|x86.ActiveCfg = Debug|Win32
+		{048E56CA-36EE-4F97-9E98-76C5FDE547AA}.Debug|x86.Build.0 = Debug|Win32
+		{048E56CA-36EE-4F97-9E98-76C5FDE547AA}.Release|x64.ActiveCfg = Release|x64
+		{048E56CA-36EE-4F97-9E98-76C5FDE547AA}.Release|x64.Build.0 = Release|x64
+		{048E56CA-36EE-4F97-9E98-76C5FDE547AA}.Release|x86.ActiveCfg = Release|Win32
+		{048E56CA-36EE-4F97-9E98-76C5FDE547AA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -668,6 +678,7 @@ Global
 		{C21B9CAC-B1BE-4FB9-B8E2-17A5786595AB} = {3615B8FE-FC95-48CC-BC8C-83B757329FBB}
 		{99770F47-9191-4D18-948A-30BBF459305C} = {A85DD0C9-E020-4288-B0E5-3459762E6E74}
 		{CE06CD1D-FA04-42A7-872A-2965ADA571A0} = {48A409BC-2024-445B-AFFE-3521FC255C33}
+		{048E56CA-36EE-4F97-9E98-76C5FDE547AA} = {A85DD0C9-E020-4288-B0E5-3459762E6E74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
