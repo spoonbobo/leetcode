@@ -177,6 +177,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1361-1370", "1361-1370", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "numberssmallerthancurrentnum", "1361-1370\numberssmallerthancurrentnum\numberssmallerthancurrentnum.vcxproj", "{716DADBB-4A8B-4258-8980-EF627533BE16}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minimumsumoffourdigit", "2151-2160\minimumsumoffourdigit\minimumsumoffourdigit.vcxproj", "{93D8E86C-D937-4DB4-AC88-A0BE5F9E531A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -641,6 +643,14 @@ Global
 		{716DADBB-4A8B-4258-8980-EF627533BE16}.Release|x64.Build.0 = Release|x64
 		{716DADBB-4A8B-4258-8980-EF627533BE16}.Release|x86.ActiveCfg = Release|Win32
 		{716DADBB-4A8B-4258-8980-EF627533BE16}.Release|x86.Build.0 = Release|Win32
+		{93D8E86C-D937-4DB4-AC88-A0BE5F9E531A}.Debug|x64.ActiveCfg = Debug|x64
+		{93D8E86C-D937-4DB4-AC88-A0BE5F9E531A}.Debug|x64.Build.0 = Debug|x64
+		{93D8E86C-D937-4DB4-AC88-A0BE5F9E531A}.Debug|x86.ActiveCfg = Debug|Win32
+		{93D8E86C-D937-4DB4-AC88-A0BE5F9E531A}.Debug|x86.Build.0 = Debug|Win32
+		{93D8E86C-D937-4DB4-AC88-A0BE5F9E531A}.Release|x64.ActiveCfg = Release|x64
+		{93D8E86C-D937-4DB4-AC88-A0BE5F9E531A}.Release|x64.Build.0 = Release|x64
+		{93D8E86C-D937-4DB4-AC88-A0BE5F9E531A}.Release|x86.ActiveCfg = Release|Win32
+		{93D8E86C-D937-4DB4-AC88-A0BE5F9E531A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -703,6 +713,7 @@ Global
 		{048E56CA-36EE-4F97-9E98-76C5FDE547AA} = {A85DD0C9-E020-4288-B0E5-3459762E6E74}
 		{0D679902-52FA-4C40-9C6F-180EE3D66BB7} = {AB3E0695-3F67-4D86-8A2A-6EB2181174B3}
 		{716DADBB-4A8B-4258-8980-EF627533BE16} = {81A4547A-F8CA-4525-AB98-279D2797F682}
+		{93D8E86C-D937-4DB4-AC88-A0BE5F9E531A} = {81A4547A-F8CA-4525-AB98-279D2797F682}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
