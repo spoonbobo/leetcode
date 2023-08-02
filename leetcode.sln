@@ -231,6 +231,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2151-2160", "2151-2160", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "keepmultiplyingfoundvaluesbytwo", "2151-2160\keepmultiplyingfoundvaluesbytwo\keepmultiplyingfoundvaluesbytwo.vcxproj", "{D9811276-3D7A-4979-A11E-2ED788AA8AF2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1501-1510", "1501-1510", "{4335B9F1-5126-421A-A9B0-07242B95B90E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "canmakearithmeticprogressionfromsequence", "1501-1510\canmakearithmeticprogressionfromsequence\canmakearithmeticprogressionfromsequence.vcxproj", "{3DC877A3-F635-4ACA-A861-C20D72FDC371}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -807,6 +811,14 @@ Global
 		{D9811276-3D7A-4979-A11E-2ED788AA8AF2}.Release|x64.Build.0 = Release|x64
 		{D9811276-3D7A-4979-A11E-2ED788AA8AF2}.Release|x86.ActiveCfg = Release|Win32
 		{D9811276-3D7A-4979-A11E-2ED788AA8AF2}.Release|x86.Build.0 = Release|Win32
+		{3DC877A3-F635-4ACA-A861-C20D72FDC371}.Debug|x64.ActiveCfg = Debug|x64
+		{3DC877A3-F635-4ACA-A861-C20D72FDC371}.Debug|x64.Build.0 = Debug|x64
+		{3DC877A3-F635-4ACA-A861-C20D72FDC371}.Debug|x86.ActiveCfg = Debug|Win32
+		{3DC877A3-F635-4ACA-A861-C20D72FDC371}.Debug|x86.Build.0 = Debug|Win32
+		{3DC877A3-F635-4ACA-A861-C20D72FDC371}.Release|x64.ActiveCfg = Release|x64
+		{3DC877A3-F635-4ACA-A861-C20D72FDC371}.Release|x64.Build.0 = Release|x64
+		{3DC877A3-F635-4ACA-A861-C20D72FDC371}.Release|x86.ActiveCfg = Release|Win32
+		{3DC877A3-F635-4ACA-A861-C20D72FDC371}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -883,6 +895,7 @@ Global
 		{F41185E1-C736-4BAF-8A97-9E1975D646D9} = {00BA7E08-3F7B-41D5-BD77-264467E30E3B}
 		{D9802244-A6DA-4134-B07F-3EE930B02E9D} = {DB801FB8-D70A-4181-BD3C-79F4424DE3DD}
 		{D9811276-3D7A-4979-A11E-2ED788AA8AF2} = {9CB1D728-8BEE-4EC1-8E5B-A5F0DEBE5B6C}
+		{3DC877A3-F635-4ACA-A861-C20D72FDC371} = {4335B9F1-5126-421A-A9B0-07242B95B90E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
