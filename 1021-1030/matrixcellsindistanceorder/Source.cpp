@@ -1,4 +1,4 @@
-// O(sort) solution 
+// O(sort) solution, beats 98% time
 
 int dist(const int& r, const int& c, const int& rC, const int& cC) {
     return abs(rC - r) + abs(cC - c);

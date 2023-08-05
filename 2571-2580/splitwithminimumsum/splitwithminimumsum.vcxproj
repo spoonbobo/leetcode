@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6902ce13-a8b3-4fc4-9e3f-840d5d620dbb}</ProjectGuid>
-    <RootNamespace>matrixcellsindistanceorder</RootNamespace>
+    <ProjectGuid>{06242484-b0f6-4dad-b1ad-fa1daf1dd098}</ProjectGuid>
+    <RootNamespace>splitwithminimumsum</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
