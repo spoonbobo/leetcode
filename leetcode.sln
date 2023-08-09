@@ -295,6 +295,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "largestpositiveintegerthate
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mindepthofbinarytree", "111-120\mindepthofbinarytree\mindepthofbinarytree.vcxproj", "{CE1B7827-B66C-48EB-9F66-F1A7ACADFDD1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "validpalindrome", "121-130\validpalindrome\validpalindrome.vcxproj", "{151BEA18-5DAE-4E02-9A1B-5712BC4A5F97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1015,6 +1017,14 @@ Global
 		{CE1B7827-B66C-48EB-9F66-F1A7ACADFDD1}.Release|x64.Build.0 = Release|x64
 		{CE1B7827-B66C-48EB-9F66-F1A7ACADFDD1}.Release|x86.ActiveCfg = Release|Win32
 		{CE1B7827-B66C-48EB-9F66-F1A7ACADFDD1}.Release|x86.Build.0 = Release|Win32
+		{151BEA18-5DAE-4E02-9A1B-5712BC4A5F97}.Debug|x64.ActiveCfg = Debug|x64
+		{151BEA18-5DAE-4E02-9A1B-5712BC4A5F97}.Debug|x64.Build.0 = Debug|x64
+		{151BEA18-5DAE-4E02-9A1B-5712BC4A5F97}.Debug|x86.ActiveCfg = Debug|Win32
+		{151BEA18-5DAE-4E02-9A1B-5712BC4A5F97}.Debug|x86.Build.0 = Debug|Win32
+		{151BEA18-5DAE-4E02-9A1B-5712BC4A5F97}.Release|x64.ActiveCfg = Release|x64
+		{151BEA18-5DAE-4E02-9A1B-5712BC4A5F97}.Release|x64.Build.0 = Release|x64
+		{151BEA18-5DAE-4E02-9A1B-5712BC4A5F97}.Release|x86.ActiveCfg = Release|Win32
+		{151BEA18-5DAE-4E02-9A1B-5712BC4A5F97}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1109,6 +1119,7 @@ Global
 		{B672CDF2-C50A-4CC1-9472-2C301760AAB7} = {5605365D-561E-478E-ADF0-D342D374F874}
 		{D8F248F5-C405-40B1-8183-167887FB5EF7} = {1C08AC58-2A3F-4E29-B76B-1F22B756B03A}
 		{CE1B7827-B66C-48EB-9F66-F1A7ACADFDD1} = {A85DD0C9-E020-4288-B0E5-3459762E6E74}
+		{151BEA18-5DAE-4E02-9A1B-5712BC4A5F97} = {B1F7062E-D595-4C97-8036-EE00276EF118}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
