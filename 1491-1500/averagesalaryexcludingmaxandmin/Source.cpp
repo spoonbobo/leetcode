@@ -1,4 +1,4 @@
-// O(n) algorithm, beats 100% time 99% space
+// O(sort) algorithm, beats 100% time 99% space
 
 class Solution {
 public:
