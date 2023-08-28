@@ -371,6 +371,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2011-2020", "2011-2020", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "finalvalueofvarafterperformingoperations", "2011-2020\finalvalueofvarafterperformingoperations\finalvalueofvarafterperformingoperations.vcxproj", "{D525A359-4245-430A-AD48-E14B46473987}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shufflethearray", "1461-1470\shufflethearray\shufflethearray.vcxproj", "{96A7D5ED-B788-4DEB-BAE2-3081BBCA360B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1283,6 +1285,14 @@ Global
 		{D525A359-4245-430A-AD48-E14B46473987}.Release|x64.Build.0 = Release|x64
 		{D525A359-4245-430A-AD48-E14B46473987}.Release|x86.ActiveCfg = Release|Win32
 		{D525A359-4245-430A-AD48-E14B46473987}.Release|x86.Build.0 = Release|Win32
+		{96A7D5ED-B788-4DEB-BAE2-3081BBCA360B}.Debug|x64.ActiveCfg = Debug|x64
+		{96A7D5ED-B788-4DEB-BAE2-3081BBCA360B}.Debug|x64.Build.0 = Debug|x64
+		{96A7D5ED-B788-4DEB-BAE2-3081BBCA360B}.Debug|x86.ActiveCfg = Debug|Win32
+		{96A7D5ED-B788-4DEB-BAE2-3081BBCA360B}.Debug|x86.Build.0 = Debug|Win32
+		{96A7D5ED-B788-4DEB-BAE2-3081BBCA360B}.Release|x64.ActiveCfg = Release|x64
+		{96A7D5ED-B788-4DEB-BAE2-3081BBCA360B}.Release|x64.Build.0 = Release|x64
+		{96A7D5ED-B788-4DEB-BAE2-3081BBCA360B}.Release|x86.ActiveCfg = Release|Win32
+		{96A7D5ED-B788-4DEB-BAE2-3081BBCA360B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1401,6 +1411,7 @@ Global
 		{0C592888-72BE-46AD-96CD-D13294836D49} = {F023B64D-FC88-4F03-A24D-2C3CE4763037}
 		{55FD4AA6-6E12-4D5E-9180-6CE5BCBD3BE8} = {732E1E1F-902F-461E-889F-489662309E99}
 		{D525A359-4245-430A-AD48-E14B46473987} = {4983FBBB-50B4-4E5E-B205-0D60ECDAB709}
+		{96A7D5ED-B788-4DEB-BAE2-3081BBCA360B} = {91DFE716-EF2E-4FB4-BEA4-FAE0FBB864BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
