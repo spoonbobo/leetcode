@@ -1,4 +1,4 @@
-// O(n) solution
+// O(n) solution, has to be optimized
 
 class Solution {
 public:
