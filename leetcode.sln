@@ -379,6 +379,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "bigcountries", "591-600\big
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1751-1760", "1751-1760", "{3D25D0A1-FA6A-4E6E-86FD-1E1DF7DE0048}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "181-190", "181-190", "{E5B9BD97-E81F-4486-BCC8-9CE1A2759415}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
