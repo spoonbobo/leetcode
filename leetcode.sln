@@ -377,6 +377,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "591-600", "591-600", "{57A9
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "bigcountries", "591-600\bigcountries\bigcountries.pyproj", "{DAD02A83-EC4E-42F8-863E-E62E51FEC189}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1751-1760", "1751-1760", "{3D25D0A1-FA6A-4E6E-86FD-1E1DF7DE0048}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
