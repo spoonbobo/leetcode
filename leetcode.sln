@@ -381,6 +381,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1751-1760", "1751-1760", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "181-190", "181-190", "{E5B9BD97-E81F-4486-BCC8-9CE1A2759415}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1871-1880", "1871-1880", "{5CB6234F-1C5D-4D23-893C-C0599787AEC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
