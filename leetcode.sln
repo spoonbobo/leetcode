@@ -387,6 +387,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1711-1720", "1711-1720", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "decodexoredarray", "1711-1720\decodexoredarray\decodexoredarray.vcxproj", "{8545E317-1FC7-4E50-A085-CEFA0A361F15}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1741-1750", "1741-1750", "{1F176A1B-65FE-40E4-94D4-F7F552B57B5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
