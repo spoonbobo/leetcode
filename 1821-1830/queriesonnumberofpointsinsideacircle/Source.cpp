@@ -1,6 +1,8 @@
 // O(n_poitns * n_queries) solution, beats 100% time
 // it's a brute force solution
 
+// It seems can be improved by binary search on a sorted data.
+
 // solve using euclid dist
 float dist(const int& x1, const int& y1, const int& x2, const int& y2) {
     return sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2));
