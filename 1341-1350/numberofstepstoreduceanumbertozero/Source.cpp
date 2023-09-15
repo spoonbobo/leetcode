@@ -1,5 +1,7 @@
 // O(n/2) solution, beats 100% time
 
+// Seems can be improved by bit manipulation
+
 class Solution {
 public:
     int numberOfSteps(int num) {
