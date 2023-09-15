@@ -439,6 +439,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2511-2520", "2511-2520", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "countthedigitsthatdivideanumber", "2511-2520\countthedigitsthatdivideanumber\countthedigitsthatdivideanumber.vcxproj", "{694BF285-3546-40FE-AF03-D98C51FFCCA7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2531-2540", "2531-2540", "{73585107-E329-4098-A477-E9866C519B6C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "differencebetweenelementsumanddigitsumofanarray", "2531-2540\differencebetweenelementsumanddigitsumofanarray\differencebetweenelementsumanddigitsumofanarray.vcxproj", "{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1991,6 +1995,18 @@ Global
 		{694BF285-3546-40FE-AF03-D98C51FFCCA7}.Release|x64.Build.0 = Release|x64
 		{694BF285-3546-40FE-AF03-D98C51FFCCA7}.Release|x86.ActiveCfg = Release|Win32
 		{694BF285-3546-40FE-AF03-D98C51FFCCA7}.Release|x86.Build.0 = Release|Win32
+		{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6}.Debug|Any CPU.Build.0 = Debug|x64
+		{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6}.Debug|x64.ActiveCfg = Debug|x64
+		{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6}.Debug|x64.Build.0 = Debug|x64
+		{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6}.Debug|x86.ActiveCfg = Debug|Win32
+		{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6}.Debug|x86.Build.0 = Debug|Win32
+		{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6}.Release|Any CPU.ActiveCfg = Release|x64
+		{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6}.Release|Any CPU.Build.0 = Release|x64
+		{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6}.Release|x64.ActiveCfg = Release|x64
+		{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6}.Release|x64.Build.0 = Release|x64
+		{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6}.Release|x86.ActiveCfg = Release|Win32
+		{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2125,6 +2141,7 @@ Global
 		{46CF56D4-9694-475F-B0B2-4DD3B39FEDCD} = {32B1B930-7AB3-441C-B163-3E32FD90D0C7}
 		{395924EB-3CB3-4307-9F6C-03A359FEFEA1} = {94F978D9-65D6-4DC0-A3F8-361FDC6EEB02}
 		{694BF285-3546-40FE-AF03-D98C51FFCCA7} = {F883186D-4577-424F-9C74-36F75A721FE5}
+		{2CBEA918-3C19-4E7E-BC6D-44D73E2487C6} = {73585107-E329-4098-A477-E9866C519B6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
