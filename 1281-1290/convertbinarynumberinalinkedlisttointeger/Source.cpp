@@ -9,7 +9,7 @@
  * };
  */
 
- // 2scan O(n) solution, beats 100% time
+ // 2scan solution (O(n) time; O(1) space)
 
 class Solution {
 public:

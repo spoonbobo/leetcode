@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3dd0f2d9-75fa-4e60-ad5b-3f4f7b4cf785}</ProjectGuid>
-    <RootNamespace>convertbinnumberinalinkedlisttointeger</RootNamespace>
+    <ProjectGuid>{e75caa8a-7828-47cd-b556-0ae42d0a8258}</ProjectGuid>
+    <RootNamespace>convertbinarynumberinalinkedlisttointeger</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
