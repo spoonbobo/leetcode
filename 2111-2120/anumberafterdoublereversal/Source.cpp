@@ -1,4 +1,4 @@
-// O(1) solution, beats 100% time
+// O(to_string) solution, beats 100% time
 
 class Solution {
 public:
