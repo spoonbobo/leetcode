@@ -627,6 +627,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "splitastringinbalancedstrin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3sum", "11-20\3sum\3sum.vcxproj", "{0F57FC5D-0FCF-42DD-AEA5-E1E2A89DDDB6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2881-2890", "2881-2890", "{5DAE08B9-31F9-46AD-A654-D0F3191FD513}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
