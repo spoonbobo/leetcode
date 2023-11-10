@@ -661,6 +661,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "percentageofletterinstring"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "firstlettertoappeartwice", "2351-2360\firstlettertoappeartwice\firstlettertoappeartwice.vcxproj", "{33FCF8F1-F2FF-4610-8065-FAA206A9963A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minimumtimetotypewordusingspecialtypewriter", "1971-1980\minimumtimetotypewordusingspecialtypewriter\minimumtimetotypewordusingspecialtypewriter.vcxproj", "{B6E2646A-65C0-4493-8904-F872D3096E27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2969,6 +2971,18 @@ Global
 		{33FCF8F1-F2FF-4610-8065-FAA206A9963A}.Release|x64.Build.0 = Release|x64
 		{33FCF8F1-F2FF-4610-8065-FAA206A9963A}.Release|x86.ActiveCfg = Release|Win32
 		{33FCF8F1-F2FF-4610-8065-FAA206A9963A}.Release|x86.Build.0 = Release|Win32
+		{B6E2646A-65C0-4493-8904-F872D3096E27}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{B6E2646A-65C0-4493-8904-F872D3096E27}.Debug|Any CPU.Build.0 = Debug|x64
+		{B6E2646A-65C0-4493-8904-F872D3096E27}.Debug|x64.ActiveCfg = Debug|x64
+		{B6E2646A-65C0-4493-8904-F872D3096E27}.Debug|x64.Build.0 = Debug|x64
+		{B6E2646A-65C0-4493-8904-F872D3096E27}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6E2646A-65C0-4493-8904-F872D3096E27}.Debug|x86.Build.0 = Debug|Win32
+		{B6E2646A-65C0-4493-8904-F872D3096E27}.Release|Any CPU.ActiveCfg = Release|x64
+		{B6E2646A-65C0-4493-8904-F872D3096E27}.Release|Any CPU.Build.0 = Release|x64
+		{B6E2646A-65C0-4493-8904-F872D3096E27}.Release|x64.ActiveCfg = Release|x64
+		{B6E2646A-65C0-4493-8904-F872D3096E27}.Release|x64.Build.0 = Release|x64
+		{B6E2646A-65C0-4493-8904-F872D3096E27}.Release|x86.ActiveCfg = Release|Win32
+		{B6E2646A-65C0-4493-8904-F872D3096E27}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3166,6 +3180,7 @@ Global
 		{BA5293B7-A13A-4850-B0DB-7A328497BE50} = {2A418452-86BB-43E5-AFDE-018A7F4551AD}
 		{CD5FAF4D-7E31-4154-B455-8EFE249237C2} = {7067C0F1-E9D5-4E15-A79F-41E035A309B4}
 		{33FCF8F1-F2FF-4610-8065-FAA206A9963A} = {44D369C4-EC20-4C7D-9EAB-EAD3F9256530}
+		{B6E2646A-65C0-4493-8904-F872D3096E27} = {544FB33C-722F-40A2-BE36-664E6FA8DDDD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
