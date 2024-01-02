@@ -713,6 +713,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculatemoneyinleetcodeban
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "elementappearingmorethan25percentinsortedarray", "1281-1290\elementappearingmorethan25percentinsortedarray\elementappearingmorethan25percentinsortedarray.vcxproj", "{380B8FC0-092F-406D-9BCE-1CC153733277}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2601-2610", "2601-2610", "{79FE9CE9-6551-45BD-9DEB-6BAF5B36565C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "convertanarrayintoa2darraywithconditions", "2601-2610\convertanarrayintoa2darraywithconditions\convertanarrayintoa2darraywithconditions.vcxproj", "{4EBB7495-3778-4025-A96B-6A995CDE64F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -3225,6 +3229,18 @@ Global
 		{380B8FC0-092F-406D-9BCE-1CC153733277}.Release|x64.Build.0 = Release|x64
 		{380B8FC0-092F-406D-9BCE-1CC153733277}.Release|x86.ActiveCfg = Release|Win32
 		{380B8FC0-092F-406D-9BCE-1CC153733277}.Release|x86.Build.0 = Release|Win32
+		{4EBB7495-3778-4025-A96B-6A995CDE64F9}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{4EBB7495-3778-4025-A96B-6A995CDE64F9}.Debug|Any CPU.Build.0 = Debug|x64
+		{4EBB7495-3778-4025-A96B-6A995CDE64F9}.Debug|x64.ActiveCfg = Debug|x64
+		{4EBB7495-3778-4025-A96B-6A995CDE64F9}.Debug|x64.Build.0 = Debug|x64
+		{4EBB7495-3778-4025-A96B-6A995CDE64F9}.Debug|x86.ActiveCfg = Debug|Win32
+		{4EBB7495-3778-4025-A96B-6A995CDE64F9}.Debug|x86.Build.0 = Debug|Win32
+		{4EBB7495-3778-4025-A96B-6A995CDE64F9}.Release|Any CPU.ActiveCfg = Release|x64
+		{4EBB7495-3778-4025-A96B-6A995CDE64F9}.Release|Any CPU.Build.0 = Release|x64
+		{4EBB7495-3778-4025-A96B-6A995CDE64F9}.Release|x64.ActiveCfg = Release|x64
+		{4EBB7495-3778-4025-A96B-6A995CDE64F9}.Release|x64.Build.0 = Release|x64
+		{4EBB7495-3778-4025-A96B-6A995CDE64F9}.Release|x86.ActiveCfg = Release|Win32
+		{4EBB7495-3778-4025-A96B-6A995CDE64F9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3439,6 +3455,7 @@ Global
 		{3807DD2B-D4F8-40E5-87A5-54DEE4566088} = {6B40AFCA-3B57-4808-A542-6EC595DCFCA6}
 		{D6B34ADA-C69E-4CF9-8A9A-673A6CAB6AEA} = {91511757-DEE9-470D-87CE-59CED09CDCCB}
 		{380B8FC0-092F-406D-9BCE-1CC153733277} = {87025DB9-2022-4CBD-8C86-2C7CDABF90DA}
+		{4EBB7495-3778-4025-A96B-6A995CDE64F9} = {79FE9CE9-6551-45BD-9DEB-6BAF5B36565C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
