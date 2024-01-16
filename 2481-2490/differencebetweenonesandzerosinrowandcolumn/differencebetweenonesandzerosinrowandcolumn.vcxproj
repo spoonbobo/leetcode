@@ -22,8 +22,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{68b99f5f-c537-41c9-8e27-58abd8c9d4eb}</ProjectGuid>
-    <RootNamespace>minimumnumberofoperationstomakearrayempty</RootNamespace>
+    <ProjectGuid>{4a3ec2e7-e7c7-4209-9a52-8881ff55180f}</ProjectGuid>
+    <RootNamespace>differencebetweenonesandzerosinrowandcolumn</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
