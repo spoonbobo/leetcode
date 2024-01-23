@@ -737,6 +737,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "641-650", "641-650", "{9CFA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "setmismatch", "641-650\setmismatch\setmismatch.vcxproj", "{A0385D1A-D48B-4A1F-8153-C21D4CF05C19}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1231-1240", "1231-1240", "{2817FA26-9653-4313-ACE6-550DB4EA6DEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
