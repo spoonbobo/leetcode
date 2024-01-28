@@ -741,6 +741,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1231-1240", "1231-1240", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maximumlengthofaconcatenatedstringwithuniquecharacters", "1231-1240\maximumlengthofaconcatenatedstringwithuniquecharacters\maximumlengthofaconcatenatedstringwithuniquecharacters.vcxproj", "{26F1A1FA-503C-4597-BC96-4CD6C379F427}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "621-630", "621-630", "{6A00FFF0-9165-49A1-A99E-5C465A4F2335}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
