@@ -1,4 +1,4 @@
-// brute-force solution, has to be optimised
+// brute-force solution, has to be optimised, O(n**3) time and space
 
 class Solution {
 public:
