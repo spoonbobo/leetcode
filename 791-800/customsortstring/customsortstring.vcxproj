@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{28da8c67-abdc-45b2-84d9-39cfd2a09f5b}</ProjectGuid>
-    <RootNamespace>countelementswithmaximumfrequency</RootNamespace>
+    <ProjectGuid>{1df01138-45df-44cb-9a5e-8e2dc6b87371}</ProjectGuid>
+    <RootNamespace>customsortstring</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
