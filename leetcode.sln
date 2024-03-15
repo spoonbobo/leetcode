@@ -799,6 +799,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minimumoperationstoexceedth
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maximumoddbinarynumber", "2861-2870\maximumoddbinarynumber\maximumoddbinarynumber.vcxproj", "{2B2ECD47-5ABE-4377-9848-90E85C87051B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maximumsumwithexactlykelements", "2651-2660\maximumsumwithexactlykelements\maximumsumwithexactlykelements.vcxproj", "{AA833F07-BF2C-4922-9373-E52D49416A9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -3611,6 +3613,18 @@ Global
 		{2B2ECD47-5ABE-4377-9848-90E85C87051B}.Release|x64.Build.0 = Release|x64
 		{2B2ECD47-5ABE-4377-9848-90E85C87051B}.Release|x86.ActiveCfg = Release|Win32
 		{2B2ECD47-5ABE-4377-9848-90E85C87051B}.Release|x86.Build.0 = Release|Win32
+		{AA833F07-BF2C-4922-9373-E52D49416A9C}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{AA833F07-BF2C-4922-9373-E52D49416A9C}.Debug|Any CPU.Build.0 = Debug|x64
+		{AA833F07-BF2C-4922-9373-E52D49416A9C}.Debug|x64.ActiveCfg = Debug|x64
+		{AA833F07-BF2C-4922-9373-E52D49416A9C}.Debug|x64.Build.0 = Debug|x64
+		{AA833F07-BF2C-4922-9373-E52D49416A9C}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA833F07-BF2C-4922-9373-E52D49416A9C}.Debug|x86.Build.0 = Debug|Win32
+		{AA833F07-BF2C-4922-9373-E52D49416A9C}.Release|Any CPU.ActiveCfg = Release|x64
+		{AA833F07-BF2C-4922-9373-E52D49416A9C}.Release|Any CPU.Build.0 = Release|x64
+		{AA833F07-BF2C-4922-9373-E52D49416A9C}.Release|x64.ActiveCfg = Release|x64
+		{AA833F07-BF2C-4922-9373-E52D49416A9C}.Release|x64.Build.0 = Release|x64
+		{AA833F07-BF2C-4922-9373-E52D49416A9C}.Release|x86.ActiveCfg = Release|Win32
+		{AA833F07-BF2C-4922-9373-E52D49416A9C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3850,6 +3864,7 @@ Global
 		{8299CF49-236A-4503-B56D-5278646909FE} = {9D99D063-8380-47BE-92E2-F469FEC1AA1D}
 		{EAF9B4B1-3C35-4113-B1DC-AC944C20ACB3} = {715772B7-06F4-4002-AD19-FD42E9B1A007}
 		{2B2ECD47-5ABE-4377-9848-90E85C87051B} = {27881B64-250F-4AB2-AF94-0F63506AE884}
+		{AA833F07-BF2C-4922-9373-E52D49416A9C} = {AD2A307F-3DD9-4255-B708-60A373267FC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
