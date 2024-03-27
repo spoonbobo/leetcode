@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1c9560f0-f8d8-4be0-8b71-510f26cbedcf}</ProjectGuid>
-    <RootNamespace>rowwithmaximumones</RootNamespace>
+    <ProjectGuid>{ff522169-644c-4bcf-be3b-24d0d387d421}</ProjectGuid>
+    <RootNamespace>sumofuniqueelements</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
