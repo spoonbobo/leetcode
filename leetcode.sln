@@ -851,6 +851,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "distributeelementsintotwoar
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maximumnesteddepthoftheparentheses", "1611-1620\maximumnesteddepthoftheparentheses\maximumnesteddepthoftheparentheses.vcxproj", "{ED2E01F5-A353-49D1-BFDA-353A7A4B1F76}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1541-1550", "1541-1550", "{D66B134E-8EB9-482E-9A8A-717559C16EE5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "makethestringgreat", "1541-1550\makethestringgreat\makethestringgreat.vcxproj", "{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -3879,6 +3883,18 @@ Global
 		{ED2E01F5-A353-49D1-BFDA-353A7A4B1F76}.Release|x64.Build.0 = Release|x64
 		{ED2E01F5-A353-49D1-BFDA-353A7A4B1F76}.Release|x86.ActiveCfg = Release|Win32
 		{ED2E01F5-A353-49D1-BFDA-353A7A4B1F76}.Release|x86.Build.0 = Release|Win32
+		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5}.Debug|Any CPU.Build.0 = Debug|x64
+		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5}.Debug|x64.ActiveCfg = Debug|x64
+		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5}.Debug|x64.Build.0 = Debug|x64
+		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5}.Debug|x86.ActiveCfg = Debug|Win32
+		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5}.Debug|x86.Build.0 = Debug|Win32
+		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5}.Release|Any CPU.ActiveCfg = Release|x64
+		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5}.Release|Any CPU.Build.0 = Release|x64
+		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5}.Release|x64.ActiveCfg = Release|x64
+		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5}.Release|x64.Build.0 = Release|x64
+		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5}.Release|x86.ActiveCfg = Release|Win32
+		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -4136,6 +4152,7 @@ Global
 		{2B091976-FF06-4CA6-A911-8B8D44EAAE89} = {5F30E674-6100-49E9-A2D7-00457F8ADC20}
 		{7E819FD4-38A4-48E2-B37C-835386A0FF34} = {715772B7-06F4-4002-AD19-FD42E9B1A007}
 		{ED2E01F5-A353-49D1-BFDA-353A7A4B1F76} = {2E320F2A-4FF2-4CE4-B853-9771FC06300B}
+		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5} = {D66B134E-8EB9-482E-9A8A-717559C16EE5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
