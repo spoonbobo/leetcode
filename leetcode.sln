@@ -863,6 +863,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3101-3110", "3101-3110", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "longeststrictlyincreasingorstrictlydecreasingsubarray", "3101-3110\longeststrictlyincreasingorstrictlydecreasingsubarray\longeststrictlyincreasingorstrictlydecreasingsubarray.vcxproj", "{93D468C0-5937-47F9-B130-46B6AE5E4CBD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1691-1700", "1691-1700", "{B75054F2-15C0-4846-9824-B729C0D92F19}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "numberofstudentsunabletoeatlunch", "1691-1700\numberofstudentsunabletoeatlunch\numberofstudentsunabletoeatlunch.vcxproj", "{C37B63F6-8306-43D4-8F40-C7E83E37288E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -3927,6 +3931,18 @@ Global
 		{93D468C0-5937-47F9-B130-46B6AE5E4CBD}.Release|x64.Build.0 = Release|x64
 		{93D468C0-5937-47F9-B130-46B6AE5E4CBD}.Release|x86.ActiveCfg = Release|Win32
 		{93D468C0-5937-47F9-B130-46B6AE5E4CBD}.Release|x86.Build.0 = Release|Win32
+		{C37B63F6-8306-43D4-8F40-C7E83E37288E}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{C37B63F6-8306-43D4-8F40-C7E83E37288E}.Debug|Any CPU.Build.0 = Debug|x64
+		{C37B63F6-8306-43D4-8F40-C7E83E37288E}.Debug|x64.ActiveCfg = Debug|x64
+		{C37B63F6-8306-43D4-8F40-C7E83E37288E}.Debug|x64.Build.0 = Debug|x64
+		{C37B63F6-8306-43D4-8F40-C7E83E37288E}.Debug|x86.ActiveCfg = Debug|Win32
+		{C37B63F6-8306-43D4-8F40-C7E83E37288E}.Debug|x86.Build.0 = Debug|Win32
+		{C37B63F6-8306-43D4-8F40-C7E83E37288E}.Release|Any CPU.ActiveCfg = Release|x64
+		{C37B63F6-8306-43D4-8F40-C7E83E37288E}.Release|Any CPU.Build.0 = Release|x64
+		{C37B63F6-8306-43D4-8F40-C7E83E37288E}.Release|x64.ActiveCfg = Release|x64
+		{C37B63F6-8306-43D4-8F40-C7E83E37288E}.Release|x64.Build.0 = Release|x64
+		{C37B63F6-8306-43D4-8F40-C7E83E37288E}.Release|x86.ActiveCfg = Release|Win32
+		{C37B63F6-8306-43D4-8F40-C7E83E37288E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -4187,6 +4203,7 @@ Global
 		{38DB37AE-BEA1-4192-8D0A-9B21EF9DEED5} = {D66B134E-8EB9-482E-9A8A-717559C16EE5}
 		{540842E2-BCB5-4D2A-8497-A0BCAE7AA2C0} = {F25DE8E2-5B60-4299-9C91-797B03E8D47F}
 		{93D468C0-5937-47F9-B130-46B6AE5E4CBD} = {7EC34090-A6EA-4EF9-987A-85AEE47E947F}
+		{C37B63F6-8306-43D4-8F40-C7E83E37288E} = {B75054F2-15C0-4846-9824-B729C0D92F19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24C1D5B9-1904-4AA9-9000-BF16CEEA797B}
